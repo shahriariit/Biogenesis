@@ -1,0 +1,6 @@
+if (compute.multiply(parentCode.getNGenes(), parentCode.getSymmetry())>= MAX_SEGMENTS)
+						nGenes = parentCode.getNGenes();
+					else {
+						nGenes = parentCode.getNGenes() + 1;
+						addedGene = Utils.random.nextInt(nGenes);
+					}
